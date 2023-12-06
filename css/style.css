@@ -1,0 +1,57 @@
+/* 
+    RESET
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+
+.fizzbuzz_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fizzbuzz_container > *{
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border: 2px solid white;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+}
+
+.fizzbuzz_container > .fizz{
+    background-color: darkcyan;
+}
+
+.fizzbuzz_container > .buzz{
+    background-color: darkblue;
+}
+
+.fizzbuzz_container > .fizzbuzz{
+    background-color: rebeccapurple;
+}
+
+
+
+
+
+/* 
+    DEBUG
+*/
